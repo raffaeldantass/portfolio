@@ -1,0 +1,24 @@
+.footer {
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-content: flex-end;
+	width: 96%;
+	height: 100px;
+}
+
+.footer__icon {
+	margin: 0 2%;
+}
+
+@media screen and (max-width: 600px) {
+	.footer {
+		justify-content: flex-start;
+		align-items: flex-end;
+	}
+
+	.footer__icon {
+		margin: 3% 2%;
+	}
+}
