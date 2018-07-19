@@ -1,0 +1,11 @@
+.main__description-block__title {
+	font-size: 3.5em;
+	margin: 0;
+	text-align: right;
+}
+
+.main__description-block__text {
+	font-size: 1.1em;
+	margin: 0;
+	text-align: right;
+}
