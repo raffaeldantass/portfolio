@@ -9,3 +9,26 @@
 	margin: 0;
 	text-align: right;
 }
+
+@media screen and (max-width: 800px) {
+	.main__description-block__title {
+		font-size: 2em;
+	}
+
+	.main__description-block__text {
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.main__description-block__title {
+		font-size: 1.8em;
+		text-align: left;
+	}
+
+	.main__description-block__text {
+		font-size: 1em;
+		text-align: left;
+	}
+}
+

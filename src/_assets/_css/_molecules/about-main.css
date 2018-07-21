@@ -10,9 +10,29 @@
 
 .main__photo-block {
 	grid-area: photo-block;
+	justify-self: center;
 }
 
 .main__description-block {
 	grid-area: description-block;
 	margin: 0 10% 0 0;
+}
+
+@media screen and (max-width: 600px) {
+	.about-main {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		grid-template-areas: 'description-block';
+		align-items: flex-start;
+		height: 140vh;
+	}
+
+	.main__photo-block {
+		display: none;
+	}
+
+	.main__description-block {
+		margin: 0 10%;
+	}
+
 }
