@@ -1,5 +1,18 @@
-body {
+html, body {
 	background-color: rgb(227, 47, 47);
-	height: 90vh;
+	height:100%;
 }
+
+@media screen and (max-width: 600px) {
+	body {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 2fr 1fr;
+		grid-template-areas: 'menu'
+												 'main'
+												 'footer';
+	}
+}
+
+
 

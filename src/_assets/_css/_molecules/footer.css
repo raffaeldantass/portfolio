@@ -15,8 +15,10 @@
 @media screen and (max-width: 600px) {
 	.footer {
 		position: initial;
+		bottom: 0;
 		justify-content: flex-start;
 		align-items: flex-end;
+		grid-area: footer;
 	}
 
 	.footer__icon {

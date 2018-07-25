@@ -22,9 +22,8 @@
 	.about-main {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr;
-		grid-template-areas: 'description-block';
-		align-items: flex-start;
-		height: 140vh;
+		grid-template-areas: 'description-block'
+		grid-area: main;
 	}
 
 	.main__photo-block {
@@ -33,6 +32,6 @@
 
 	.main__description-block {
 		margin: 0 10%;
+		padding: 0 0 20% 0;
 	}
-
 }
