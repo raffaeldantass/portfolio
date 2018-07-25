@@ -14,11 +14,15 @@
 
 @media screen and (max-width: 600px) {
 	.footer {
-		position: initial;
-		bottom: 0;
+		position: relative;
 		justify-content: flex-start;
 		align-items: flex-end;
 		grid-area: footer;
+		height: 60px;
+	}
+
+	.footer-inner-pages {
+		justify-content: center !important;
 	}
 
 	.footer__icon {

@@ -4,7 +4,6 @@
 	grid-template-rows: 1fr;
 	grid-template-areas: 'photo-block description-block';
 	align-items: center;
-	height: 80%;
 	width: 100%;
 }
 
@@ -22,7 +21,8 @@
 	.about-main {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr;
-		grid-template-areas: 'description-block'
+		grid-template-areas: 'description-block';
+		align-items: flex-start;
 		grid-area: main;
 	}
 
@@ -31,7 +31,6 @@
 	}
 
 	.main__description-block {
-		margin: 0 10%;
-		padding: 0 0 20% 0;
+		margin: 0 10% 5% 10%;
 	}
 }
