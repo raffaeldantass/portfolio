@@ -14,6 +14,7 @@
 
 @media screen and (max-width: 600px) {
 	.footer {
+		position: initial;
 		justify-content: flex-start;
 		align-items: flex-end;
 	}
