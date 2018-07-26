@@ -17,6 +17,8 @@
 	margin: 0 10% 0 0;
 }
 
+
+ 
 @media screen and (max-width: 600px) {
 	.about-main {
 		grid-template-columns: 1fr;
