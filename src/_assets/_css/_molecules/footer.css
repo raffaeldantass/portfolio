@@ -17,6 +17,10 @@
 		position: relative;
 		align-items: center;
 	}
+
+	.footer-inner-pages__text {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -34,5 +38,9 @@
 
 	.footer__icon {
 		margin: 3% 2%;
+	}
+
+	.footer-inner-pages__text {
+		display: none;
 	}
 }

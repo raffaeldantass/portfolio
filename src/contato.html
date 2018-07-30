@@ -5,8 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> Contato - Rafael Dantas - Front End | Designer </title>
 
+	<link rel="stylesheet" href="_assets/_css/_helpers/helper.css">
 	<link rel="stylesheet" href="_assets/_css/_atoms/normalize.css">
+	<link rel="stylesheet" href="_assets/_css/_atoms/fonts.css">
 	<link rel="stylesheet" href="_assets/_css/_template/contact.css">
+	<link rel="stylesheet" href="_assets/_css/_molecules/menu.css">
+	<link rel="stylesheet" href="_assets/_css/_atoms/menu-items.css">
+	<link rel="stylesheet" href="_assets/_css/_molecules/contact-main.css">
+	<link rel="stylesheet" href="_assets/_css/_molecules/footer.css">
 
 	<meta property="og:image" content="_assets/_img/contato-capa-fb.png" />
 	<meta property="og:url" content="http://www.rafadantas.me/contato" />
@@ -17,6 +23,39 @@
 	<meta name="description" content="Meu nome é Rafael Dantas, sou Dev Front End | Designer, curioso e amante da web.">
 </head>
 <body>
+	<nav role="navigation" class="menu">
+		<ul class="menu__block">
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="index.html"> Inicio  </a></li>
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="comunidade.html"> Comunidade </a></li>
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="trabalhos.html"> Trabalhos  </a></li>
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="contato.html"> Contato    </a></li>
+		</ul>
+	</nav>
+
+	<main class="contact-main">
+		<h1 class="patua contact-main__title"> Quer falar comigo? </h1>
+		<h2 class="patua contact-main__subtitle"> Abaixo você encontra meu email e redes sociais, só chamar! :) </h2>
+		<a class="contact-main__mail-link" href="mailto:rafael@rafadantas.me" target="_blank"><p class="quicksand-light"> rafael@rafadantas.me </p></a>
+
+		<div class="contact-main__icon-block">
+			<a class="contact-main__icon-block__icon" href="https://twitter.com/RaffaelDantass" target="_blank" rel="noopener"> 
+				<img src="_assets/_img/twitter-icon.svg" width="40" alt="Link para o meu Twitter"> 
+			</a>
+			<a class="contact-main__icon-block__icon" href="https://www.linkedin.com/in/raffaeldantass/" target="_blank" rel="noopener"> 
+				<img src="_assets/_img/linkedin-icon.svg" width="40" alt="Link para o meu Linkedin"> 
+			</a>
+			<a class="contact-main__icon-block__icon" href="https://medium.com/@raffaeldantass" target="_blank" rel="noopener"> 
+				<img src="_assets/_img/medium-icon.svg" width="40" alt="Link para o meu Medium"> 
+			</a>
+			<a class="contact-main__icon-block__icon" href="https://github.com/raffaeldantass" target="_blank" rel="noopener"> 
+				<img src="_assets/_img/github-icon.svg" width="40" alt="Link para o meu Github"> 
+			</a>
+		</div>
+	</main>
+
+	<footer class="footer footer-inner-pages">
+		<p class="quicksand-light footer-inner-pages__text">Rafael Dantas 2018</p>
+	</footer>
 	
 </body>
 </html>

@@ -1,0 +1,10 @@
+body {
+	background-color: #232D48;
+	display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-areas: 'menu'
+												 'main'
+												 'footer';
+		height: 100vh;
+}
