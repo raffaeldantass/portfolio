@@ -1,0 +1,22 @@
+.comunity-main {
+	display: grid;
+	grid-template-columns: 1.5fr 2fr .5fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: 'talks contribuition title-page-block';
+	width: 95%;
+}
+
+.comunity-main__talks {
+	grid-area: talks;
+}
+
+.comunity-main__contribuition {
+	grid-area: contribuition;
+	margin: 0 5%;
+}
+
+.comunity-main__title-page-block {
+	grid-area: title-page-block;
+	display: flex;
+	justify-content: flex-end;
+}

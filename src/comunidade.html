@@ -6,7 +6,14 @@
 	<title> Talks - Rafael Dantas - Front End | Designer </title>
 
 	<link rel="stylesheet" href="_assets/_css/_atoms/normalize.css">
-	<link rel="stylesheet" href="_assets/_css/_template/talks.css">
+	<link rel="stylesheet" href="_assets/_css/_helpers/helper.css">
+	<link rel="stylesheet" href="_assets/_css/_atoms/fonts.css">
+	<link rel="stylesheet" href="_assets/_css/_molecules/menu.css">
+	<link rel="stylesheet" href="_assets/_css/_atoms/menu-items.css">
+	<link rel="stylesheet" href="_assets/_css/_molecules/comunity-main.css">
+	<link rel="stylesheet" href="_assets/_css/_atoms/comunity-main-items.css">
+	<link rel="stylesheet" href="_assets/_css/_molecules/footer.css">
+	<link rel="stylesheet" href="_assets/_css/_template/community.css">
 
 	<meta property="og:image" content="_assets/_img/talks-capa-fb.png" />
 	<meta property="og:url" content="http://www.rafadantas.me/talks" />
@@ -17,7 +24,62 @@
 	<meta name="description" content="Meu nome é Rafael Dantas, sou Dev Front End | Designer, curioso e amante da web.">
 </head>
 <body>
+	<nav role="navigation" class="menu">
+		<ul class="menu__block">
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="index.html"> Inicio  </a></li>
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="sobre.html"> Sobre mim </a></li>
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="trabalhos.html"> Trabalhos  </a></li>
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="contato.html"> Contato    </a></li>
+		</ul>
+	</nav>
+
+	<main class="comunity-main">
+		<section class="comunity-main__talks">
+			<h2 class="patua comunity-main__title"> Talks </h2>
+
+			<h3 class="patua comunity-main__subtitle"> Desmistificando o CSS Grid Layout </h3>
+			<p class="quicksand-light comunity-main__description">
+				Slides da palestra apresentada no Meetup do Front End SP em Abril de 2018.
+			</p>
+
+			<h3 class="patua comunity-main__subtitle"> Houdini e o Futuro das CSS </h3>
+			<p class="quicksand-light comunity-main__description">
+				Slides da palestra apresentada no Meetup de CSS em Junho de 2018.
+			</p>
+
+			<h3 class="patua comunity-main__subtitle"> Performance Web </h3>
+			<p class="quicksand-light comunity-main__description">
+				Slides da palestra apresentada na Semana de Técnologia da FATEC Jundiaí em setembro de 2017.
+			</p>
+		</section>
+
+		<section class="comunity-main__contribuition">
+			<h2 class="patua comunity-main__title"> Contribuições </h2>
+			<h3 class="patua comunity-main__subtitle"> Eventos </h3>
+			<p class="quicksand-light comunity-main__description">
+				Co-organizador do Meetup de HTML SP além de ajudar pontualmente em alguns outros eventos que ocorrem na comunidade Front End em São Paulo. Contribuidor em um projeto open source chamado Statik, no qual tem o objetivo de criar geradores de projetos em diversas stacks usadas no mercado atualmente. Clique neste <a href="#" target="_blank"> link </a> para conhecer o projeto. 
+			</p>
+
+			<h3 class="patua comunity-main__subtitle"> Participações </h3>
+			<p class="quicksand-light comunity-main__description">
+				Participação no Alura Live em Junho de 2018 onde fui falar sobre CSS para Layout e o futuro das especificações. 
+			</p>
+
+			<iframe width="400" height="400" src="https://www.youtube.com/embed/onQ40mAiTGo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</section>
+
+		<section class="comunity-main__title-page-block">
+			<h1 class="patua page-title"> Comunidade </h1>
+		</section>
+	</main>
 	
+
+	<footer class="footer footer-inner-pages">
+		<a class="footer__icon" href="https://twitter.com/RaffaelDantass" target="_blank" rel="noopener"> <img src="_assets/_img/twitter-icon.svg" width="30" alt="Link para o meu Twitter"> </a>
+		<a class="footer__icon" href="https://www.linkedin.com/in/raffaeldantass/" target="_blank" rel="noopener"> <img src="_assets/_img/linkedin-icon.svg" width="30" alt="Link para o meu Linkedin"> </a>
+		<a class="footer__icon" href="https://medium.com/@raffaeldantass" target="_blank" rel="noopener"> <img src="_assets/_img/medium-icon.svg" width="30" alt="Link para o meu Medium"> </a>
+		<a class="footer__icon" href="https://github.com/raffaeldantass" target="_blank" rel="noopener"> <img src="_assets/_img/github-icon.svg" width="30" alt="Link para o meu Github"> </a>
+	</footer>
 </body>
 </html>
 

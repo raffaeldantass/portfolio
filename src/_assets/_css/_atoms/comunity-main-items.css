@@ -1,0 +1,18 @@
+.page-title {
+	font-size: 4em;
+	writing-mode: vertical-lr;
+}
+
+.comunity-main__title {
+	font-size: 4em;
+}
+
+.comunity-main__subtitle {
+	font-size: 1.6em;
+	margin: 2% 0 0 0;
+}
+
+.comunity-main__description {
+	font-size: 1.3em;
+	margin: 0;
+}

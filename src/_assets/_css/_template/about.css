@@ -1,18 +1,14 @@
-html, body {
+body {
 	background-color: rgb(227, 47, 47);
-	height:90%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: 'menu'
+												'main'
+												'footer';
+	height:90vh;
 }
 
-@media screen and (max-width: 600px) {
-	body {
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
-		grid-template-areas: 'menu'
-												 'main'
-												 'footer';
-	}
-}
 
 
 
