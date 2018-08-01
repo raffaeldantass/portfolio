@@ -1,6 +1,6 @@
 .comunity-main {
 	display: grid;
-	grid-template-columns: 1.5fr 2fr .5fr;
+	grid-template-columns: 1.5fr 1.5fr .2fr;
 	grid-template-rows: 1fr;
 	grid-template-areas: 'talks contribuition title-page-block';
 	width: 95%;
@@ -8,6 +8,7 @@
 
 .comunity-main__talks {
 	grid-area: talks;
+	margin: 0 0 0 5%;
 }
 
 .comunity-main__contribuition {
