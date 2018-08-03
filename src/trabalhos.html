@@ -6,7 +6,14 @@
 	<title> Trabalhos - Rafael Dantas - Front End | Designer </title>
 
 	<link rel="stylesheet" href="_assets/_css/_atoms/normalize.css">
-	<link rel="stylesheet" href="_assets/_css/_template/jobs.css">
+	<link rel="stylesheet" href="_assets/_css/_helpers/helper.css">
+	<link rel="stylesheet" href="_assets/_css/_molecules/menu.css">
+	<link rel="stylesheet" href="_assets/_css/_atoms/menu-items.css">
+	<link rel="stylesheet" href="_assets/_css/_atoms/fonts.css">
+	<link rel="stylesheet" href="_assets/_css/_template/work.css">
+	<link rel="stylesheet" href="_assets/_css/_molecules/work-main.css">
+	<link rel="stylesheet" href="_assets/_css/_atoms/work-main-items.css">
+	<link rel="stylesheet" href="_assets/_css/_molecules/footer.css">
 
 	<meta property="og:image" content="_assets/_img/jobs-capa-fb.png" />
 	<meta property="og:url" content="http://www.rafadantas.me/trabalhos" />
@@ -16,7 +23,49 @@
 	<meta name="robots" content="index,follow">
 	<meta name="description" content="Meu nome é Rafael Dantas, sou Dev Front End | Designer, curioso e amante da web.">
 </head>
-<body>
+<body id="work">
+	
+	<nav role="navigation" class="menu">
+		<ul class="menu__block">
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="index.html"> Inicio  				</a></li>
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="sobre.html"> Sobre mim 			</a></li>
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="comunidade.html"> Comunidade </a></li>
+			<li class="menu__block__list-item"><a class="quicksand-light menu__block__list-link" href="contato.html"> Contato    		</a></li>
+		</ul>
+	</nav>
+
+	<main class="jobs-main">
+		<section class="jobs">
+			<div class="jobs__job-block">
+				<img src="http://via.placeholder.com/250x250" alt="">
+				<h2 class="patua"> Novo site da Malagueta Group</h2>
+				<p class="quicksand-light"> Novo site criado para o grupo Malagueta Grupo, primeiro site em Wordpress desenvolvido por mim através da Dále IdeiaZ</p>
+			</div>
+
+			<div class="jobs__job-block">
+				<img src="http://via.placeholder.com/250x250" alt="">
+				<h2 class="patua"> Hotsite do Hackathon Hack.DASA </h2>
+				<p class="quicksand-light"> Projeto criado para atender a campanha criada pela DASA para o seu primeiro Hackthon realizado em São Paulo, desenvolvido também através da Dále IdeiaZ</p>
+			</div>
+
+			<div class="jobs__job-block">
+				<img src="http://via.placeholder.com/250x250" alt="">
+				<h2 class="patua"> Novo site da ISO Radiologia </h2>
+				<p class="quicksand-light"> Primeiro site criado por mim trabalhando dentro da Dále IdeiaZ, um simples site estático com a nova identidade visual. </p>
+			</div>
+		</section>
+
+		<section class="title-block">
+			<h1 class="patua title-block__title"> Trabalhos </h1>
+		</section>
+	</main>
+
+	<footer class="footer footer-inner-pages">
+		<a class="footer__icon" href="https://twitter.com/RaffaelDantass" target="_blank" rel="noopener"> <img src="_assets/_img/twitter-icon.svg" width="30" alt="Link para o meu Twitter"> </a>
+		<a class="footer__icon" href="https://www.linkedin.com/in/raffaeldantass/" target="_blank" rel="noopener"> <img src="_assets/_img/linkedin-icon.svg" width="30" alt="Link para o meu Linkedin"> </a>
+		<a class="footer__icon" href="https://medium.com/@raffaeldantass" target="_blank" rel="noopener"> <img src="_assets/_img/medium-icon.svg" width="30" alt="Link para o meu Medium"> </a>
+		<a class="footer__icon" href="https://github.com/raffaeldantass" target="_blank" rel="noopener"> <img src="_assets/_img/github-icon.svg" width="30" alt="Link para o meu Github"> </a>
+	</footer>
 	
 </body>
 </html>
