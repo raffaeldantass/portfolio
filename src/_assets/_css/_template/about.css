@@ -1,4 +1,4 @@
-body {
+#about {
 	background-color: rgb(227, 47, 47);
 	display: grid;
 	grid-template-columns: 1fr;

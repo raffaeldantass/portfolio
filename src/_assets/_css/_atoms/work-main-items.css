@@ -21,3 +21,7 @@
 	writing-mode: vertical-lr;
 	font-size: 4em;
 }
+
+.jobs__job-block__link {
+	text-decoration: none;
+}

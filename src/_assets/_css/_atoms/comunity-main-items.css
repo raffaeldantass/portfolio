@@ -17,6 +17,16 @@
 	margin: 0;
 }
 
+.community-main__link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.community-main__link:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
 @media screen and (max-width: 600px) {
 	.page-title {
 		display: none;

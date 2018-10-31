@@ -1,8 +1,5 @@
-html, body {
+#community {
 	background-color: #4D457F;
-}
-
-body {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr;

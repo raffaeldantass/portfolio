@@ -20,6 +20,18 @@
 	}
 }
 
+.main__photo-block__img {
+	border-radius: 1%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	max-width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+	.main__photo-block__img {
+		width: 300px;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	.main__description-block__title {
 		font-size: 1.8em;
