@@ -8,6 +8,11 @@
 	src: url('../../_fonts/quicksand-light.ttf');
 }
 
+@font-face {
+	font-family: 'quicksand-medium';
+	src: url('../../_fonts/quicksand-medium.ttf');
+}
+
 .patua {
 	font-family: 'patua', Helvetica, sans-serif;
 	color: #ffffff;
@@ -15,5 +20,10 @@
 
 .quicksand-light {
 	font-family: 'quicksand-light', Helvetica, sans-serif;
+	color: #ffffff;
+}
+
+.quicksand-medium {
+	font-family: 'quicksand-medium', Helvetica, sans-serif;
 	color: #ffffff;
 }

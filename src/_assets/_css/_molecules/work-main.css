@@ -1,0 +1,28 @@
+.jobs-main {
+	display: grid;
+	grid-template-columns: 3fr .3fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: 'jobs title-block';
+	width: 95%;
+	height: 80vh;
+}
+
+.jobs {
+	grid-area: jobs;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.jobs__job-block {
+	align-self: center;
+	margin: 0 5%;
+	cursor: pointer;
+}
+
+.title-block {
+	grid-area: title-block;
+	display: flex;
+	justify-content: flex-end;
+	align-self: center;
+}
