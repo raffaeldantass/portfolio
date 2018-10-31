@@ -1,0 +1,13 @@
+.menu__block__list-item {
+	list-style: none;
+}
+
+.menu__block__list-link {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+.menu__block__list-link:hover {
+	color: #8ed7ff;
+}

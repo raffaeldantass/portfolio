@@ -1,0 +1,10 @@
+#community {
+	background-color: #4D457F;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: 'menu'
+												'main'
+												'footer';
+	height:90vh;
+}
