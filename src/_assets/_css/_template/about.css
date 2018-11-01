@@ -1,5 +1,5 @@
 #about {
-	background-color: rgb(227, 47, 47);
+	background-color:rgb(227, 47, 47);
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
